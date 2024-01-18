@@ -45,11 +45,11 @@ function categories_Jalan_5(
   return [
     new ol.style.Style({
       stroke: new ol.style.Stroke({
-        color: "rgba(211,12,16,1.0)",
+        color: "rgba(211,12,16,0.7)",
         lineDash: null,
         lineCap: "square",
         lineJoin: "bevel",
-        width: 0,
+        width: 1.3,
       }),
       text: createTextStyle(
         feature,

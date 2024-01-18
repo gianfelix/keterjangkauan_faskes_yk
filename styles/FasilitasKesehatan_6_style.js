@@ -9,10 +9,10 @@ var style_FasilitasKesehatan_6 = function(feature, resolution){
     var value = ""
     var labelText = "";
     size = 0;
-    var labelFont = "10.4px \'Open Sans\', sans-serif";
+    var labelFont = "bold 13px \'Open Sans\', sans-serif";
     var labelFill = "#323232";
     var bufferColor = "#fafafa";
-    var bufferWidth = 0.8;
+    var bufferWidth = 1.7;
     var textAlign = "left";
     var offsetX = 8;
     var offsetY = 3;
@@ -21,7 +21,7 @@ var style_FasilitasKesehatan_6 = function(feature, resolution){
         labelText = String(feature.get("Nama_RS"));
     }
     var style = [ new ol.style.Style({
-        image: new ol.style.Circle({radius: 8.0 + size,
+        image: new ol.style.Circle({radius: 7.0 + size,
             stroke: new ol.style.Stroke({color: 'rgba(227,26,28,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 1}), fill: new ol.style.Fill({color: 'rgba(255,255,255,1.0)'})}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,

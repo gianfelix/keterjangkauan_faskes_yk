@@ -23,11 +23,11 @@ var style_BatasAdministrasiKecamatan_4 = function (feature, resolution) {
   var style = [
     new ol.style.Style({
       stroke: new ol.style.Stroke({
-        color: "rgba(35,35,35,1.0)",
+        color: "rgba(35,35,35,0.7)",
         lineDash: null,
         lineCap: "round",
         lineJoin: "round",
-        width: 1,
+        width: 1.5,
       }),
       text: createTextStyle(
         feature,
