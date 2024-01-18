@@ -53,7 +53,7 @@ var lyr_AreaKeterjangkauanFaskes_3 = new ol.layer.Vector({
   style: style_AreaKeterjangkauanFaskes_3,
   interactive: true,
   title:
-    'Area Keterjangkauan Faskes<br />\
+    'Area of Affordability Health facilities<br />\
     <img src="styles/legend/AreaKeterjangkauanFaskes_3_0.png" /> Very Affordable<br />\
     <img src="styles/legend/AreaKeterjangkauanFaskes_3_1.png" /> Quite Affordable<br />\
     <img src="styles/legend/AreaKeterjangkauanFaskes_3_2.png" /> Less Affordable<br />\
@@ -77,7 +77,7 @@ var lyr_BatasAdministrasiKecamatan_4 = new ol.layer.Vector({
   style: style_BatasAdministrasiKecamatan_4,
   interactive: true,
   title:
-    '<img src="styles/legend/batas_admin_kec.png" /> Batas Administrasi Kecamatan',
+    '<img src="styles/legend/batas_admin_kec.png" /> Sub-district Administration Boundary',
 });
 var format_Jalan_5 = new ol.format.GeoJSON();
 var features_Jalan_5 = format_Jalan_5.readFeatures(json_Jalan_5, {
@@ -96,7 +96,7 @@ var lyr_Jalan_5 = new ol.layer.Vector({
   title: `
     
     
-    <img src="styles/legend/Jalan_5_3.png" /> Jalan <br />`,
+    <img src="styles/legend/Jalan_5_3.png" /> Road <br />`,
 });
 var format_FasilitasKesehatan_6 = new ol.format.GeoJSON();
 var features_FasilitasKesehatan_6 = format_FasilitasKesehatan_6.readFeatures(
@@ -113,7 +113,7 @@ var lyr_FasilitasKesehatan_6 = new ol.layer.Vector({
   style: style_FasilitasKesehatan_6,
   interactive: true,
   title:
-    '<img src="styles/legend/FasilitasKesehatan_6.png" /> Fasilitas Kesehatan',
+    '<img src="styles/legend/FasilitasKesehatan_6.png" /> Health Facilities <br />',
 });
 
 lyr_GoogleRoad_0.setVisible(true);
