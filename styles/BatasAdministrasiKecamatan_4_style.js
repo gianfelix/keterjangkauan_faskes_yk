@@ -9,17 +9,18 @@ var style_BatasAdministrasiKecamatan_4 = function (feature, resolution) {
   var value = "";
   var labelText = "";
   size = 0;
-  var labelFont = "10px, sans-serif";
-  var labelFill = "#000000";
-  var bufferColor = "";
-  var bufferWidth = 0;
+  var labelFont = "18px \'Open Sans\', sans-serif";
+  var labelFill = "rgba(0,0,0,0.8)";
+  var bufferColor = "#fafafa";
+  var bufferWidth = 1.3;
   var textAlign = "left";
   var offsetX = 8;
   var offsetY = 3;
   var placement = "point";
-  if ("" !== null) {
-    labelText = String("");
+  if (feature.get("kecamatan") !== null) {
+    labelText = String(feature.get("kecamatan"));
   }
+
   var style = [
     new ol.style.Style({
       stroke: new ol.style.Stroke({
